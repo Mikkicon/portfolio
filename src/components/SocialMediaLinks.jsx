@@ -14,7 +14,7 @@ Link.defaultProps = {
 
 const SocialMediaLinks = () => (
   <>
-    <Link href="https://www.linkedin.com/in/mikkicon/" label="linkedin" />
+    <Link href="https://www.linkedin.com/in/mikkicon/" label="Linkedin" />
   </>
 );
 

@@ -1,31 +1,18 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
-import logo from './logo.svg';
 import SocialMediaLinks from './components/SocialMediaLinks';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit
-          {' '}
-          <code>src/App.js</code>
-          {' '}
-          and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <SocialMediaLinks />
+      <div>
+        <h1>404</h1>
+        <h2>For now better visit my
+         <br />
+          <SocialMediaLinks />
+        </h2>
+      </div>
     </div>
   );
 }
